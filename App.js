@@ -9,7 +9,7 @@ import LibraryList from './src/components/LibraryList'
 const App = () => {
   return (
       <Provider store={createStore(reducers)}>
-        <View>
+        <View style={{flex: 1}}>
           <Header text="React Redux" />
           <LibraryList />
         </View>
